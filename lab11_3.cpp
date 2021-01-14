@@ -2,10 +2,11 @@
 
 using namespace std;
 
-void mySwap (int &,int &); //Pass variables by references
+void mySwap(int &,int &); 
 
 int main(){
-	int x = 6, y = 9;
+	int x,y;
+	cin >> x >> y;
 	cout << "Before swapping:\n";
 	cout << "x = " << x << ", y = " << y << "\n";
 	mySwap (x,y);
@@ -14,10 +15,3 @@ int main(){
 	
 	return 0;
 }
-
-//Write function definition here
-/*
-??? mySwap (???){
-
-}
-*/
